@@ -15787,6 +15787,27 @@ body {
   text-decoration: none;
 }
 
+.products-index-page .filter,
+.products-favorites-page .filter {
+  border: 1px red solid;
+  font-size: 12px;
+  padding: 2px 0 2px 2px;
+}
+
+.products-index-page .filter .filter-value,
+.products-favorites-page .filter .filter-value {
+  color: red;
+}
+
+.products-index-page .filter .remove-filter,
+.products-favorites-page .filter .remove-filter {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background: red;
+  padding: 2px;
+}
+
 .products-show-page .cover {
   width: 100%;
   border: solid 1px #eee;
